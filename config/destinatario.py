@@ -22,8 +22,22 @@ while destinatario not in ('a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i'):
     destinatario = destinatario.lower()
 
 if destinatario == "a":
-    destinatario = 'INV-SaaSReceptionINV@sovos.com'
+    destinatario = 'INV-SaaSReceptionSQL@Sovos.com'
 if destinatario == "b":
+    destinatario = 'INV-InHouseReceptionSQL@Sovos.com'
+if destinatario == "c":
+    destinatario = 'INV-SaaSReceptionOracle@Sovos.com'
+if destinatario == "d":
+    destinatario = 'INV-InHouseReceptionOracle@Sovos.com'
+if destinatario == "e":
+    destinatario = 'INV-SaasReceptionLATAM@sovos.com'
+if destinatario == "f":
+    destinatario = 'INV-InHouseReceptionLATAM@sovos.com'
+if destinatario == "g":
+    destinatario = 'INV-InHouseReceptionTF@sovos.com'
+if destinatario == "h":
     destinatario = 'INV-SaaSReceptionTF@sovos.com'
+if destinatario == "i":
+    destinatario = 'INV-SaaSReceptionINV@sovos.com'
     
 print('Você escolheu o email '+ str(destinatario) )
