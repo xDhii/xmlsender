@@ -41,3 +41,4 @@ if destinatario == "i":
     destinatario = 'INV-SaaSReceptionINV@sovos.com'
     
 print('Você escolheu o email '+ str(destinatario) )
+print()
