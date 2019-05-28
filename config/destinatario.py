@@ -1,8 +1,18 @@
 ## Lista de Emails ##
-print()
 print('Selecione o destinatário:')
-print('A - INV-SaaSReceptionINV@sovos.com')
-print('B - INV-SaaSReceptionTF@sovos.com ')
+print()
+print('A - INV-SaaSReceptionSQL@Sovos.com           VM 02')
+print('B - INV-InHouseReceptionSQL@Sovos.com        VM 03')
+print('C - INV-SaaSReceptionOracle@Sovos.com        VM 05')
+print('D - INV-InHouseReceptionOracle@Sovos.com     VM 06')
+print('E - INV-SaasReceptionLATAM@sovos.com         VM 08')
+print('F - INV-InHouseReceptionLATAM@sovos.com      VM 09')
+print('G - INV-InHouseReceptionTF@sovos.com         VM 14')
+print('H - INV-SaaSReceptionTF@sovos.com            VM 19')
+print('I - INV-SaaSReceptionINV@sovos.com           VM 22')
+
+
+
 print()
 destinatario = input('Digite a opção correspondente ao destinatário: ')
 destinatario = destinatario.lower()
