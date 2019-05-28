@@ -16,8 +16,8 @@ print('I - INV-SaaSReceptionINV@sovos.com           VM 22')
 print()
 destinatario = input('Digite a opção correspondente ao destinatário: ')
 destinatario = destinatario.lower()
-while destinatario not in ('a', 'b'):
-    print('Eita caralho, não entendi')
+while destinatario not in ('a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i'):
+    print('Não entendi')
     destinatario = input('Digite a opção correspondente ao destinatário: ')
     destinatario = destinatario.lower()
 
@@ -26,4 +26,4 @@ if destinatario == "a":
 if destinatario == "b":
     destinatario = 'INV-SaaSReceptionTF@sovos.com'
     
-print('Você escolheu o email '+ str(destinatario) +' seu vacilão')
+print('Você escolheu o email '+ str(destinatario) )
