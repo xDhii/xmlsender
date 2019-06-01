@@ -1,5 +1,7 @@
 import smtplib, ssl
 
+#emaildestinatario = input("Digite o email: ")
+
 def email_configurar():
     port = 587  # For starttls
     smtp_server = "smtp.gmail.com"
@@ -7,13 +9,13 @@ def email_configurar():
     password = "@sovos123"
     
 def email_destinatario():
-    receiver_email = "leonardo.carvalho1208@gmail.com"
+    receiver_email = "xxxghostxxx1@gmail.com"
 
 def email_mensagem():
     message = """\
-    Subject: XML Sender
+    Subject: Teste de email
     
-    This message is sent from Python."""
+    Enviado através do Python."""
     
 def email_enviar():    
     context = ssl.create_default_context()

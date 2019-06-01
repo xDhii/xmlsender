@@ -6,5 +6,5 @@ messages.limpar_tela()
 messages.mensageminicial()
 
 
-from config import destinatario
+#from config import destinatario
 from config import xmlsender
